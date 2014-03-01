@@ -20,6 +20,10 @@
 		9C9CFA79187C24F900666911 /* iPhoneCircle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9CFA77187C24F900666911 /* iPhoneCircle@2x.png */; };
 		9C9CFA7D187C2FB600666911 /* iPhoneBase.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9CFA7B187C2FB600666911 /* iPhoneBase.png */; };
 		9C9CFA7E187C2FB600666911 /* iPhoneBase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9CFA7C187C2FB600666911 /* iPhoneBase@2x.png */; };
+		F52812D018C1C84A003C89EC /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F52812CF18C1C84A003C89EC /* test.mp3 */; };
+		F52812D318C1C8BD003C89EC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52812D218C1C8BD003C89EC /* AudioToolbox.framework */; };
+		F52812D518C1DAF9003C89EC /* bound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F52812D418C1DAF9003C89EC /* bound.mp3 */; };
+		F52812D718C20849003C89EC /* oto02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F52812D618C20849003C89EC /* oto02.mp3 */; };
 		F545294018703C4300E64038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F545293F18703C4300E64038 /* Foundation.framework */; };
 		F545294218703C4300E64038 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F545294118703C4300E64038 /* CoreGraphics.framework */; };
 		F545294418703C4300E64038 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F545294318703C4300E64038 /* UIKit.framework */; };
@@ -125,6 +129,10 @@
 		9C9CFA77187C24F900666911 /* iPhoneCircle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneCircle@2x.png"; sourceTree = "<group>"; };
 		9C9CFA7B187C2FB600666911 /* iPhoneBase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneBase.png; sourceTree = "<group>"; };
 		9C9CFA7C187C2FB600666911 /* iPhoneBase@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhoneBase@2x.png"; sourceTree = "<group>"; };
+		F52812CF18C1C84A003C89EC /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		F52812D218C1C8BD003C89EC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F52812D418C1DAF9003C89EC /* bound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bound.mp3; sourceTree = "<group>"; };
+		F52812D618C20849003C89EC /* oto02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oto02.mp3; sourceTree = "<group>"; };
 		F545293C18703C4300E64038 /* Clock Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clock Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F545293F18703C4300E64038 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F545294118703C4300E64038 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -215,6 +223,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52812D318C1C8BD003C89EC /* AudioToolbox.framework in Frameworks */,
 				F545294218703C4300E64038 /* CoreGraphics.framework in Frameworks */,
 				F545294418703C4300E64038 /* UIKit.framework in Frameworks */,
 				F545294018703C4300E64038 /* Foundation.framework in Frameworks */,
@@ -257,6 +266,16 @@
 			name = iPhoneParts;
 			sourceTree = "<group>";
 		};
+		F52812CD18C1C814003C89EC /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F52812CF18C1C84A003C89EC /* test.mp3 */,
+				F52812D418C1DAF9003C89EC /* bound.mp3 */,
+				F52812D618C20849003C89EC /* oto02.mp3 */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
 		F545293318703C4300E64038 = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +298,7 @@
 		F545293E18703C4300E64038 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F52812D218C1C8BD003C89EC /* AudioToolbox.framework */,
 				F545293F18703C4300E64038 /* Foundation.framework */,
 				F545294118703C4300E64038 /* CoreGraphics.framework */,
 				F545294318703C4300E64038 /* UIKit.framework */,
@@ -299,6 +319,7 @@
 				F545299C18703DEB00E64038 /* Base.png */,
 				F5EA2087187ED83A003B6165 /* Clock Ball Parts Images */,
 				F545295A18703C4300E64038 /* Images.xcassets */,
+				F52812CD18C1C814003C89EC /* Sound */,
 				F545294618703C4300E64038 /* Supporting Files */,
 			);
 			path = "Clock Ball";
@@ -511,6 +532,7 @@
 				9C9CFA71187C219800666911 /* 6iPhone.png in Resources */,
 				F551F841187C3E7D00207265 /* iPhoneTanshin.png in Resources */,
 				F58326D81871502800207675 /* BlackLandscape.png in Resources */,
+				F52812D018C1C84A003C89EC /* test.mp3 in Resources */,
 				F545295B18703C4300E64038 /* Images.xcassets in Resources */,
 				F5EA207C187ED26F003B6165 /* BlackBaseIphone@2x.png in Resources */,
 				F545298A18703D4C00E64038 /* Landscape12.png in Resources */,
@@ -537,11 +559,13 @@
 				F545299018703D4C00E64038 /* Landscape9.png in Resources */,
 				F58326D01871502800207675 /* Black9.png in Resources */,
 				F5EA2074187ED26F003B6165 /* Black12Iphone@2x.png in Resources */,
+				F52812D718C20849003C89EC /* oto02.mp3 in Resources */,
 				F545299318703D4C00E64038 /* LandscapeBase@2x.png in Resources */,
 				F5EA2079187ED26F003B6165 /* Black9Iphone.png in Resources */,
 				F5B169DB187D94A30045E858 /* iPhoneCenterPoint@2x.png in Resources */,
 				9C9CFA65187C1DD400666911 /* 12iPhone.png in Resources */,
 				F545299418703D4C00E64038 /* LandscapeCenter.png in Resources */,
+				F52812D518C1DAF9003C89EC /* bound.mp3 in Resources */,
 				9C9CFA79187C24F900666911 /* iPhoneCircle@2x.png in Resources */,
 				F551F842187C3E7D00207265 /* iPhoneChaushin.png in Resources */,
 				F5B169DC187D94A30045E858 /* iPhoneCenterPoint.png in Resources */,

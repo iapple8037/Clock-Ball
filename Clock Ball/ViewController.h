@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface ViewController : UIViewController
+{
+    SystemSoundID soundID;
+}
 
 @property (weak, nonatomic) IBOutlet UIImageView *Choushin;
 @property (weak, nonatomic) IBOutlet UIImageView *Tanshin;

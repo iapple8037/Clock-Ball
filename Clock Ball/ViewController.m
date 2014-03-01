@@ -29,6 +29,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //sound付ける//音を鳴らす
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"oto02" ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &soundID);
 	
     //TODO: タイマーの作成（動作開始）
     [NSTimer scheduledTimerWithTimeInterval:1.0      // 時間間隔（秒）
@@ -447,6 +452,9 @@
     [UIView animateWithDuration:0.3 animations:^{
         view.backgroundColor = [UIColor orangeColor];
     }];
+    
+    //音を鳴らす
+    AudioServicesPlaySystemSound(soundID);
 }
 
 
