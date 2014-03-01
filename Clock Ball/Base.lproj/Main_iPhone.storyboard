@@ -1,23 +1,361 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4i1-MG-1fc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--View Controller-->
+        <scene sceneID="tbg-yH-PSu">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <viewController id="4i1-MG-1fc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wKx-gL-C1N"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ykf-hp-Av1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gX9-MS-a2W">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZz-4o-swe">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackBaseIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="JPM-TH-jUm">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="569"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black12Iphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="SZO-Yi-b0N">
+                                        <rect key="frame" x="127" y="138" width="67" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black6Iphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="eOr-4y-AUs">
+                                        <rect key="frame" x="142" y="378" width="36" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black3Iphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="ekr-7I-hyR">
+                                        <rect key="frame" x="261" y="257" width="35" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black9Iphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fba-t0-ZEF">
+                                        <rect key="frame" x="20" y="256" width="37" height="56"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3c-rN-eON">
+                                        <rect key="frame" x="139" y="212" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0p-ta-Bf0">
+                                        <rect key="frame" x="139" y="328" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJ4-f3-PE2">
+                                        <rect key="frame" x="196" y="274" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIa-P1-jaM">
+                                        <rect key="frame" x="86" y="274" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPointIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="fmB-Jb-rm0">
+                                        <rect key="frame" x="204" y="165" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPointIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="AOL-BF-QhF">
+                                        <rect key="frame" x="252" y="208" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPointIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vnu-SA-wMP">
+                                        <rect key="frame" x="252" y="327" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPointIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="1ZS-Ez-Fyz">
+                                        <rect key="frame" x="204" y="373" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPointIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="x79-uc-fw6">
+                                        <rect key="frame" x="87" y="373" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPointIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="PTn-SI-joS">
+                                        <rect key="frame" x="87" y="165" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPointIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="j41-jh-EIY">
+                                        <rect key="frame" x="39" y="208" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackPointIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tn0-Np-QaR">
+                                        <rect key="frame" x="39" y="327" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackTanshinIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="ak9-hz-Xwq">
+                                        <rect key="frame" x="150" y="201" width="20" height="167"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackChoushinIphone.png" translatesAutoresizingMaskIntoConstraints="NO" id="AM2-l9-gHL">
+                                        <rect key="frame" x="150" y="178" width="20" height="212"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlackCenetrPointIphone .png" translatesAutoresizingMaskIntoConstraints="NO" id="ygf-UG-hh7">
+                                        <rect key="frame" x="154" y="278" width="12" height="12"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="L3c-rN-eON" firstAttribute="leading" secondItem="j41-jh-EIY" secondAttribute="trailing" constant="70" id="0YW-BJ-Yko"/>
+                                    <constraint firstItem="eOr-4y-AUs" firstAttribute="top" secondItem="ygf-UG-hh7" secondAttribute="bottom" constant="88" id="0yG-db-4Zm"/>
+                                    <constraint firstItem="SZO-Yi-b0N" firstAttribute="leading" secondItem="PTn-SI-joS" secondAttribute="trailing" constant="10" id="Ang-ck-M01"/>
+                                    <constraint firstAttribute="bottom" secondItem="JPM-TH-jUm" secondAttribute="bottom" id="CHO-xz-seC"/>
+                                    <constraint firstItem="JPM-TH-jUm" firstAttribute="top" secondItem="eZz-4o-swe" secondAttribute="top" id="Cub-lz-aGS"/>
+                                    <constraint firstItem="x79-uc-fw6" firstAttribute="top" secondItem="RIa-P1-jaM" secondAttribute="bottom" constant="78" id="DlT-sm-hyU"/>
+                                    <constraint firstAttribute="centerY" secondItem="ygf-UG-hh7" secondAttribute="centerY" id="Fyr-Mt-sZj"/>
+                                    <constraint firstAttribute="centerY" secondItem="ak9-hz-Xwq" secondAttribute="centerY" id="HFW-6k-iXZ"/>
+                                    <constraint firstAttribute="centerX" secondItem="ak9-hz-Xwq" secondAttribute="centerX" id="Hla-mZ-L5Y"/>
+                                    <constraint firstItem="1ZS-Ez-Fyz" firstAttribute="leading" secondItem="eOr-4y-AUs" secondAttribute="trailing" constant="26" id="IDO-2c-y0z"/>
+                                    <constraint firstItem="v0p-ta-Bf0" firstAttribute="top" secondItem="ygf-UG-hh7" secondAttribute="bottom" constant="38" id="KAW-GN-oiG"/>
+                                    <constraint firstItem="1ZS-Ez-Fyz" firstAttribute="top" secondItem="gJ4-f3-PE2" secondAttribute="bottom" constant="78" id="KMo-3V-KFg"/>
+                                    <constraint firstItem="ygf-UG-hh7" firstAttribute="top" secondItem="SZO-Yi-b0N" secondAttribute="bottom" constant="88" id="Q3l-Aw-uPV"/>
+                                    <constraint firstAttribute="centerX" secondItem="AM2-l9-gHL" secondAttribute="centerX" id="QRS-QC-avd"/>
+                                    <constraint firstAttribute="centerX" secondItem="eOr-4y-AUs" secondAttribute="centerX" id="Sbx-09-Q84"/>
+                                    <constraint firstItem="Vnu-SA-wMP" firstAttribute="top" secondItem="ekr-7I-hyR" secondAttribute="bottom" constant="15" id="T9c-tw-ZLx"/>
+                                    <constraint firstAttribute="centerX" secondItem="JPM-TH-jUm" secondAttribute="centerX" id="TC6-Js-kMN"/>
+                                    <constraint firstItem="Vnu-SA-wMP" firstAttribute="leading" secondItem="v0p-ta-Bf0" secondAttribute="trailing" constant="71" id="UFx-0n-VBh"/>
+                                    <constraint firstAttribute="centerX" secondItem="SZO-Yi-b0N" secondAttribute="centerX" id="UWD-sz-617"/>
+                                    <constraint firstAttribute="centerY" secondItem="RIa-P1-jaM" secondAttribute="centerY" id="YUA-jK-ezz"/>
+                                    <constraint firstItem="fmB-Jb-rm0" firstAttribute="leading" secondItem="SZO-Yi-b0N" secondAttribute="trailing" constant="10" id="b1X-Xo-eDa"/>
+                                    <constraint firstAttribute="centerY" secondItem="ekr-7I-hyR" secondAttribute="centerY" id="dCf-2z-Zwy"/>
+                                    <constraint firstItem="JPM-TH-jUm" firstAttribute="leading" secondItem="eZz-4o-swe" secondAttribute="leading" id="dWR-Qz-F35"/>
+                                    <constraint firstItem="ygf-UG-hh7" firstAttribute="top" secondItem="L3c-rN-eON" secondAttribute="bottom" constant="45" id="ds9-aX-CY2"/>
+                                    <constraint firstItem="gJ4-f3-PE2" firstAttribute="leading" secondItem="ygf-UG-hh7" secondAttribute="trailing" constant="30" id="g0I-4d-VKk"/>
+                                    <constraint firstAttribute="centerY" secondItem="AM2-l9-gHL" secondAttribute="centerY" id="g8m-jH-e6p"/>
+                                    <constraint firstItem="Fba-t0-ZEF" firstAttribute="top" secondItem="j41-jh-EIY" secondAttribute="bottom" constant="18" id="gz1-a1-9KY"/>
+                                    <constraint firstAttribute="centerY" secondItem="gJ4-f3-PE2" secondAttribute="centerY" id="hqZ-gG-XtR"/>
+                                    <constraint firstItem="v0p-ta-Bf0" firstAttribute="leading" secondItem="Tn0-Np-QaR" secondAttribute="trailing" constant="70" id="jlT-86-GVr"/>
+                                    <constraint firstAttribute="centerX" secondItem="L3c-rN-eON" secondAttribute="centerX" id="lUN-Jk-TaJ"/>
+                                    <constraint firstAttribute="centerX" secondItem="ygf-UG-hh7" secondAttribute="centerX" id="lmb-Rr-IaS"/>
+                                    <constraint firstAttribute="centerY" secondItem="Fba-t0-ZEF" secondAttribute="centerY" id="m6s-Og-Jfs"/>
+                                    <constraint firstItem="ygf-UG-hh7" firstAttribute="leading" secondItem="RIa-P1-jaM" secondAttribute="trailing" constant="26" id="nUT-8Q-Kqs"/>
+                                    <constraint firstItem="ekr-7I-hyR" firstAttribute="top" secondItem="AOL-BF-QhF" secondAttribute="bottom" constant="19" id="pBb-6A-PMZ"/>
+                                    <constraint firstItem="Tn0-Np-QaR" firstAttribute="top" secondItem="Fba-t0-ZEF" secondAttribute="bottom" constant="15" id="qQd-tx-an4"/>
+                                    <constraint firstAttribute="trailing" secondItem="JPM-TH-jUm" secondAttribute="trailing" id="quz-qj-Nw1"/>
+                                    <constraint firstItem="ygf-UG-hh7" firstAttribute="leading" secondItem="Fba-t0-ZEF" secondAttribute="trailing" constant="97" id="sPT-TN-FvY"/>
+                                    <constraint firstAttribute="centerX" secondItem="v0p-ta-Bf0" secondAttribute="centerX" id="seO-N6-LLi"/>
+                                    <constraint firstItem="eOr-4y-AUs" firstAttribute="leading" secondItem="x79-uc-fw6" secondAttribute="trailing" constant="25" id="u1q-aO-02X"/>
+                                    <constraint firstItem="AOL-BF-QhF" firstAttribute="leading" secondItem="L3c-rN-eON" secondAttribute="trailing" constant="71" id="vM3-5l-crx"/>
+                                    <constraint firstItem="ekr-7I-hyR" firstAttribute="leading" secondItem="ygf-UG-hh7" secondAttribute="trailing" constant="95" id="yoB-j8-Tcb"/>
+                                    <constraint firstItem="RIa-P1-jaM" firstAttribute="top" secondItem="PTn-SI-joS" secondAttribute="bottom" constant="79" id="zCJ-jH-SEq"/>
+                                    <constraint firstItem="gJ4-f3-PE2" firstAttribute="top" secondItem="fmB-Jb-rm0" secondAttribute="bottom" constant="79" id="zQb-6n-nWs"/>
+                                </constraints>
+                            </view>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kh9-bI-dsS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneBase.png" translatesAutoresizingMaskIntoConstraints="NO" id="bpc-b4-wMp">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="570"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12iPhone.png" translatesAutoresizingMaskIntoConstraints="NO" id="dcH-5o-BTB">
+                                        <rect key="frame" x="127" y="138" width="67" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6iPhone.png" translatesAutoresizingMaskIntoConstraints="NO" id="EOn-0G-MpC">
+                                        <rect key="frame" x="142" y="376" width="36" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3iPhone.png" translatesAutoresizingMaskIntoConstraints="NO" id="CXG-NT-DjI">
+                                        <rect key="frame" x="261" y="258" width="35" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9iPhone.png" translatesAutoresizingMaskIntoConstraints="NO" id="iDt-8W-maD">
+                                        <rect key="frame" x="21" y="258" width="37" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1k-5N-ApV">
+                                        <rect key="frame" x="139" y="218" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYJ-2R-kOc">
+                                        <rect key="frame" x="139" y="328" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIG-SA-kxN">
+                                        <rect key="frame" x="198" y="274" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdo-fk-0Uh">
+                                        <rect key="frame" x="84" y="274" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="52j-G4-NV3">
+                                        <rect key="frame" x="202" y="165" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="0LI-sW-2sK">
+                                        <rect key="frame" x="91" y="167" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zsr-mE-2dJ">
+                                        <rect key="frame" x="199" y="371" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="u4Y-Bp-7fM">
+                                        <rect key="frame" x="93" y="371" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="WPa-yJ-Sje">
+                                        <rect key="frame" x="251" y="208" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="fwQ-Lq-zJ9">
+                                        <rect key="frame" x="248" y="328" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="bda-nX-G40">
+                                        <rect key="frame" x="42" y="205" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="vJ2-ev-ytJ">
+                                        <rect key="frame" x="44" y="328" width="28" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneTanshin.png" translatesAutoresizingMaskIntoConstraints="NO" id="aAz-BN-tQV">
+                                        <rect key="frame" x="150" y="206" width="20" height="157"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneChaushin.png" translatesAutoresizingMaskIntoConstraints="NO" id="O9y-YK-AR5">
+                                        <rect key="frame" x="150" y="184" width="20" height="200"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iPhoneCenterPoint.png" translatesAutoresizingMaskIntoConstraints="NO" id="vuu-Qx-pPm">
+                                        <rect key="frame" x="154" y="277" width="12" height="15"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="iDt-8W-maD" firstAttribute="top" secondItem="bda-nX-G40" secondAttribute="bottom" constant="23" id="0EF-Ng-zfY"/>
+                                    <constraint firstAttribute="centerX" secondItem="EOn-0G-MpC" secondAttribute="centerX" id="1cl-so-zjA"/>
+                                    <constraint firstItem="vuu-Qx-pPm" firstAttribute="top" secondItem="Y1k-5N-ApV" secondAttribute="bottom" constant="38" id="1dv-MY-nck"/>
+                                    <constraint firstAttribute="centerY" secondItem="O9y-YK-AR5" secondAttribute="centerY" id="24o-79-l6K"/>
+                                    <constraint firstAttribute="trailing" secondItem="bpc-b4-wMp" secondAttribute="trailing" id="2Cn-aO-nEZ"/>
+                                    <constraint firstItem="wYJ-2R-kOc" firstAttribute="leading" secondItem="vJ2-ev-ytJ" secondAttribute="trailing" constant="67" id="2hS-yt-bSI"/>
+                                    <constraint firstItem="uIG-SA-kxN" firstAttribute="leading" secondItem="vuu-Qx-pPm" secondAttribute="trailing" constant="32" id="404-tD-KDf"/>
+                                    <constraint firstItem="EOn-0G-MpC" firstAttribute="leading" secondItem="u4Y-Bp-7fM" secondAttribute="trailing" constant="21" id="4tF-G5-zCI"/>
+                                    <constraint firstAttribute="centerY" secondItem="uIG-SA-kxN" secondAttribute="centerY" id="8C8-Tb-RZa"/>
+                                    <constraint firstItem="CXG-NT-DjI" firstAttribute="top" secondItem="WPa-yJ-Sje" secondAttribute="bottom" constant="20" id="AHB-gL-Kva"/>
+                                    <constraint firstAttribute="centerX" secondItem="dcH-5o-BTB" secondAttribute="centerX" id="CBs-Eq-bwM"/>
+                                    <constraint firstItem="u4Y-Bp-7fM" firstAttribute="top" secondItem="kdo-fk-0Uh" secondAttribute="bottom" constant="76" id="CsI-By-dPX"/>
+                                    <constraint firstItem="kdo-fk-0Uh" firstAttribute="top" secondItem="0LI-sW-2sK" secondAttribute="bottom" constant="77" id="Fhx-mO-vMK"/>
+                                    <constraint firstAttribute="bottom" secondItem="bpc-b4-wMp" secondAttribute="bottom" constant="-1" id="GEZ-E0-MDJ"/>
+                                    <constraint firstItem="CXG-NT-DjI" firstAttribute="leading" secondItem="vuu-Qx-pPm" secondAttribute="trailing" constant="95" id="Gfr-d7-RL6"/>
+                                    <constraint firstItem="vJ2-ev-ytJ" firstAttribute="top" secondItem="iDt-8W-maD" secondAttribute="bottom" constant="18" id="JmJ-GQ-5lY"/>
+                                    <constraint firstAttribute="centerY" secondItem="kdo-fk-0Uh" secondAttribute="centerY" id="KcU-dS-3o8"/>
+                                    <constraint firstItem="Zsr-mE-2dJ" firstAttribute="leading" secondItem="EOn-0G-MpC" secondAttribute="trailing" constant="21" id="Ljw-po-bsf"/>
+                                    <constraint firstItem="Y1k-5N-ApV" firstAttribute="leading" secondItem="bda-nX-G40" secondAttribute="trailing" constant="69" id="NhV-CZ-lm5"/>
+                                    <constraint firstAttribute="centerY" secondItem="vuu-Qx-pPm" secondAttribute="centerY" id="ONc-3O-uWy"/>
+                                    <constraint firstItem="EOn-0G-MpC" firstAttribute="top" secondItem="vuu-Qx-pPm" secondAttribute="bottom" constant="84" id="Rx1-jV-bfs"/>
+                                    <constraint firstItem="dcH-5o-BTB" firstAttribute="leading" secondItem="0LI-sW-2sK" secondAttribute="trailing" constant="8" id="S8O-MU-ekQ"/>
+                                    <constraint firstItem="vuu-Qx-pPm" firstAttribute="top" secondItem="dcH-5o-BTB" secondAttribute="bottom" constant="87" id="SDq-JE-46J"/>
+                                    <constraint firstAttribute="centerX" secondItem="Y1k-5N-ApV" secondAttribute="centerX" id="Sk0-ci-pj3"/>
+                                    <constraint firstAttribute="centerY" secondItem="aAz-BN-tQV" secondAttribute="centerY" id="Sma-xJ-F3b"/>
+                                    <constraint firstAttribute="centerX" secondItem="O9y-YK-AR5" secondAttribute="centerX" id="Ugj-D8-x2S"/>
+                                    <constraint firstAttribute="centerX" secondItem="vuu-Qx-pPm" secondAttribute="centerX" id="Vrd-Vn-jtY"/>
+                                    <constraint firstAttribute="centerY" secondItem="CXG-NT-DjI" secondAttribute="centerY" id="YUi-fj-GyK"/>
+                                    <constraint firstAttribute="centerX" secondItem="aAz-BN-tQV" secondAttribute="centerX" id="YYH-bL-g6z"/>
+                                    <constraint firstItem="bpc-b4-wMp" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="YxR-Ae-GYh"/>
+                                    <constraint firstItem="fwQ-Lq-zJ9" firstAttribute="leading" secondItem="wYJ-2R-kOc" secondAttribute="trailing" constant="67" id="cJV-lj-m66"/>
+                                    <constraint firstItem="fwQ-Lq-zJ9" firstAttribute="top" secondItem="CXG-NT-DjI" secondAttribute="bottom" constant="17" id="eEq-Qc-BHv"/>
+                                    <constraint firstItem="wYJ-2R-kOc" firstAttribute="top" secondItem="vuu-Qx-pPm" secondAttribute="bottom" constant="36" id="evQ-5x-o59"/>
+                                    <constraint firstItem="Zsr-mE-2dJ" firstAttribute="top" secondItem="uIG-SA-kxN" secondAttribute="bottom" constant="76" id="g5Z-IQ-ttT"/>
+                                    <constraint firstItem="vuu-Qx-pPm" firstAttribute="leading" secondItem="kdo-fk-0Uh" secondAttribute="trailing" constant="28" id="iQT-dK-emz"/>
+                                    <constraint firstAttribute="centerX" secondItem="wYJ-2R-kOc" secondAttribute="centerX" id="mZ7-JF-Tvy"/>
+                                    <constraint firstItem="vuu-Qx-pPm" firstAttribute="leading" secondItem="iDt-8W-maD" secondAttribute="trailing" constant="96" id="qEK-5N-N1J"/>
+                                    <constraint firstItem="uIG-SA-kxN" firstAttribute="top" secondItem="52j-G4-NV3" secondAttribute="bottom" constant="79" id="sC3-Fn-w33"/>
+                                    <constraint firstItem="WPa-yJ-Sje" firstAttribute="leading" secondItem="Y1k-5N-ApV" secondAttribute="trailing" constant="70" id="tg5-sf-OVh"/>
+                                    <constraint firstItem="52j-G4-NV3" firstAttribute="leading" secondItem="dcH-5o-BTB" secondAttribute="trailing" constant="8" id="vXc-zc-KWA"/>
+                                    <constraint firstItem="bpc-b4-wMp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="xYo-AV-kF4"/>
+                                    <constraint firstAttribute="centerY" secondItem="iDt-8W-maD" secondAttribute="centerY" id="zCm-0X-ovq"/>
+                                </constraints>
+                                <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kh9-bI-dsS" firstAttribute="leading" secondItem="gX9-MS-a2W" secondAttribute="leading" id="0hR-ZZ-xhQ"/>
+                            <constraint firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="JC5-UJ-Y7Q"/>
+                            <constraint firstAttribute="trailing" secondItem="eZz-4o-swe" secondAttribute="trailing" id="OXk-rE-gMB"/>
+                            <constraint firstAttribute="centerX" secondItem="eZz-4o-swe" secondAttribute="centerX" id="byv-wE-R1h"/>
+                            <constraint firstItem="eZz-4o-swe" firstAttribute="top" secondItem="wKx-gL-C1N" secondAttribute="bottom" id="g2x-F6-VAk"/>
+                            <constraint firstItem="Ykf-hp-Av1" firstAttribute="top" secondItem="eZz-4o-swe" secondAttribute="bottom" id="hJZ-v2-IBi"/>
+                            <constraint firstItem="eZz-4o-swe" firstAttribute="leading" secondItem="gX9-MS-a2W" secondAttribute="leading" id="lfp-M9-XAG"/>
+                            <constraint firstItem="kh9-bI-dsS" firstAttribute="top" secondItem="wKx-gL-C1N" secondAttribute="bottom" id="lly-gz-bte"/>
+                            <constraint firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailing" id="oNg-T2-2yA"/>
+                            <constraint firstItem="Ykf-hp-Av1" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="bottom" id="ua6-k5-utH"/>
+                        </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="Choushin" destination="O9y-YK-AR5" id="5f8-mm-zDw"/>
+                        <outlet property="Tanshin" destination="aAz-BN-tQV" id="pQS-1k-ntT"/>
+                        <outlet property="choushinBlack" destination="AM2-l9-gHL" id="ggc-yn-UGu"/>
+                        <outlet property="dayView" destination="kh9-bI-dsS" id="qQZ-Cw-e9J"/>
+                        <outlet property="nightView" destination="eZz-4o-swe" id="JAl-cz-2dZ"/>
+                        <outlet property="tanchinBlack" destination="ak9-hz-Xwq" id="38w-FR-Oi6"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdL-7k-FfV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="39" y="67"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="12iPhone.png" width="67" height="52"/>
+        <image name="3iPhone.png" width="35" height="53"/>
+        <image name="6iPhone.png" width="36" height="52"/>
+        <image name="9iPhone.png" width="37" height="52"/>
+        <image name="Black12Iphone.png" width="67" height="52"/>
+        <image name="Black3Iphone.png" width="35" height="55"/>
+        <image name="Black6Iphone.png" width="36" height="54"/>
+        <image name="Black9Iphone.png" width="37" height="56"/>
+        <image name="BlackBaseIphone.png" width="568" height="320"/>
+        <image name="BlackCenetrPointIphone .png" width="12" height="12"/>
+        <image name="BlackChoushinIphone.png" width="20" height="212"/>
+        <image name="BlackPointIphone.png" width="30" height="30"/>
+        <image name="BlackTanshinIphone.png" width="20" height="167"/>
+        <image name="iPhoneBase.png" width="568" height="320"/>
+        <image name="iPhoneCenterPoint.png" width="12" height="15"/>
+        <image name="iPhoneChaushin.png" width="20" height="200"/>
+        <image name="iPhoneCircle.png" width="28" height="30"/>
+        <image name="iPhoneTanshin.png" width="20" height="157"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -10,4 +10,16 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *Choushin;
+@property (weak, nonatomic) IBOutlet UIImageView *Tanshin;
+
+@property (weak, nonatomic) IBOutlet UIImageView *tanchinBlack;
+@property (weak, nonatomic) IBOutlet UIImageView *choushinBlack;
+
+
+@property (weak, nonatomic) IBOutlet UIView *nightView;
+@property (weak, nonatomic) IBOutlet UIView *dayView;
+
+-(void)driveClock : (NSTimer *)timer;
+
 @end
