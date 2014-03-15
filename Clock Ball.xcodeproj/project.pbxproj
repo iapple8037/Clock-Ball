@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C15992D18ABDBEF005C241D /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C15992C18ABDBEF005C241D /* DropitBehavior.m */; };
 		9C9CFA64187C1DD400666911 /* 12iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9CFA62187C1DD400666911 /* 12iPhone@2x.png */; };
 		9C9CFA65187C1DD400666911 /* 12iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9CFA63187C1DD400666911 /* 12iPhone.png */; };
 		9C9CFA6C187C207000666911 /* 3iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C9CFA6A187C207000666911 /* 3iPhone@2x.png */; };
@@ -57,7 +56,6 @@
 		F545299918703D4C00E64038 /* LandscapePoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F545298718703D4C00E64038 /* LandscapePoint@2x.png */; };
 		F545299A18703D4C00E64038 /* LandscapeTanshin.png in Resources */ = {isa = PBXBuildFile; fileRef = F545298818703D4C00E64038 /* LandscapeTanshin.png */; };
 		F545299B18703D4C00E64038 /* LandscapeTanshin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F545298918703D4C00E64038 /* LandscapeTanshin@2x.png */; };
-		F545299D18703DEB00E64038 /* Base.png in Resources */ = {isa = PBXBuildFile; fileRef = F545299C18703DEB00E64038 /* Base.png */; };
 		F551F841187C3E7D00207265 /* iPhoneTanshin.png in Resources */ = {isa = PBXBuildFile; fileRef = F551F83F187C3E7D00207265 /* iPhoneTanshin.png */; };
 		F551F842187C3E7D00207265 /* iPhoneChaushin.png in Resources */ = {isa = PBXBuildFile; fileRef = F551F840187C3E7D00207265 /* iPhoneChaushin.png */; };
 		F58326CA1871502800207675 /* Black12.png in Resources */ = {isa = PBXBuildFile; fileRef = F58326B61871502800207675 /* Black12.png */; };
@@ -115,8 +113,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C15992B18ABDBEF005C241D /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
-		9C15992C18ABDBEF005C241D /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
 		9C9CFA62187C1DD400666911 /* 12iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12iPhone@2x.png"; sourceTree = "<group>"; };
 		9C9CFA63187C1DD400666911 /* 12iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12iPhone.png; sourceTree = "<group>"; };
 		9C9CFA6A187C207000666911 /* 3iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3iPhone@2x.png"; sourceTree = "<group>"; };
@@ -171,7 +167,6 @@
 		F545298718703D4C00E64038 /* LandscapePoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LandscapePoint@2x.png"; sourceTree = "<group>"; };
 		F545298818703D4C00E64038 /* LandscapeTanshin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LandscapeTanshin.png; sourceTree = "<group>"; };
 		F545298918703D4C00E64038 /* LandscapeTanshin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LandscapeTanshin@2x.png"; sourceTree = "<group>"; };
-		F545299C18703DEB00E64038 /* Base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Base.png; sourceTree = "<group>"; };
 		F551F83F187C3E7D00207265 /* iPhoneTanshin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneTanshin.png; sourceTree = "<group>"; };
 		F551F840187C3E7D00207265 /* iPhoneChaushin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneChaushin.png; sourceTree = "<group>"; };
 		F58326B61871502800207675 /* Black12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black12.png; sourceTree = "<group>"; };
@@ -314,9 +309,6 @@
 				F545295418703C4300E64038 /* Main_iPad.storyboard */,
 				F545295718703C4300E64038 /* ViewController.h */,
 				F545295818703C4300E64038 /* ViewController.m */,
-				9C15992B18ABDBEF005C241D /* DropitBehavior.h */,
-				9C15992C18ABDBEF005C241D /* DropitBehavior.m */,
-				F545299C18703DEB00E64038 /* Base.png */,
 				F5EA2087187ED83A003B6165 /* Clock Ball Parts Images */,
 				F545295A18703C4300E64038 /* Images.xcassets */,
 				F52812CD18C1C814003C89EC /* Sound */,
@@ -491,7 +483,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ClockBall;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = YANAGIDA;
 				TargetAttributes = {
 					F545293B18703C4300E64038 = {
@@ -585,7 +577,6 @@
 				9C9CFA75187C225A00666911 /* 9iPhone@2x.png in Resources */,
 				F58326D91871502800207675 /* BlackLandscape@2x.png in Resources */,
 				F5EA2086187ED26F003B6165 /* BlackTanshinIphone@2x.png in Resources */,
-				F545299D18703DEB00E64038 /* Base.png in Resources */,
 				9C9CFA6C187C207000666911 /* 3iPhone@2x.png in Resources */,
 				F58326D21871502800207675 /* BlackBase.png in Resources */,
 				F545299118703D4C00E64038 /* Landscape9@2x.png in Resources */,
@@ -627,7 +618,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F545295918703C4300E64038 /* ViewController.m in Sources */,
-				9C15992D18ABDBEF005C241D /* DropitBehavior.m in Sources */,
 				F545295018703C4300E64038 /* AppDelegate.m in Sources */,
 				F545294C18703C4300E64038 /* main.m in Sources */,
 			);
@@ -691,7 +681,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -731,7 +720,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -796,7 +784,6 @@
 		F545297518703C4300E64038 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clock Ball.app/Clock Ball";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -819,7 +806,6 @@
 		F545297618703C4300E64038 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Clock Ball.app/Clock Ball";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

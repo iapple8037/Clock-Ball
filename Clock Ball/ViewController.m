@@ -30,6 +30,9 @@
 {
     [super viewDidLoad];
     
+    UIApplication *application = [UIApplication sharedApplication];
+    application .idleTimerDisabled = YES;
+    
     //sound付ける//音を鳴らす
     NSString *path = [[NSBundle mainBundle] pathForResource:@"oto02" ofType:@"mp3"];
     NSURL *url = [NSURL fileURLWithPath:path];
@@ -319,7 +322,7 @@
     NSDateComponents * todayComponents = [calendar components:flags fromDate:today];
     
     int hour = [todayComponents hour];
-    int min = [todayComponents minute];
+    NSInteger min = [todayComponents minute];
     
     float fineHour = (hour % 12) + min / 60.0;
     
